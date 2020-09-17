@@ -1,0 +1,14 @@
+#ifndef __CONFIG__
+#define __CONFIG__
+
+#define DUST_SENSOR_DIGITAL_PIN_PM10 7
+#define DUST_SENSOR_DIGITAL_PIN_PM25 6
+#define TIME_MS_FOR_DUST_SENSOR 60000
+#define DHTPIN 8
+#define DHTTYPE DHT22 
+#define TIME_MS_FOR_START_COMUNICATION 60000
+#define RX_PIN_GPS 4
+#define TX_PIN_GPS 3
+#define GPS_BAUD 9600
+
+#endif
